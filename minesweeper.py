@@ -44,7 +44,7 @@ class Game:
         self.display = pygame.display.set_mode(
             (board.width * (self.FIELD_SIZE + self.GAP_SIZE) + self.GAP_SIZE,
              board.height * (self.FIELD_SIZE + self.GAP_SIZE) + self.GAP_SIZE + self.PANEL_HEIGHT))
-
+        pygame.display.set_caption("Minesweeper")
         while True:
             button = None
             mouse_clicked = False

@@ -10,6 +10,8 @@
 * Hard: 15x15, 45 mines
 
 ### How to Play:
-* The game follows classic minesweeper rules
+The game follows classic minesweeper rules:
+* Run 'python minesweeper.py' to run
+* Select difficuly
 * Use left mouse button to reveal cell
 * Use right mouse button to mark/unmark cells
